@@ -19,4 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
       initialView: 'dayGridMonth'
     });
     calendar.render();
-  });
+});
+
+// copy right year
+
+const c_year = document.getElementById('c_year');
+c_year.innerText = year;

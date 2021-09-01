@@ -18,7 +18,7 @@ h6 {
     margin: 0;
 }
 
-header {
+header,footer {
     background-color: rgb(0, 40, 116);
     color: #fff;
 }
@@ -171,4 +171,46 @@ iframe{
 }
 .fc .fc-button-primary:disabled{
     text-transform: capitalize;
+}
+#body{
+    position: relative;
+}
+.footer_logo{
+    width: 110px;
+}
+
+footer{
+    h5{
+        margin-bottom: 10px;
+    }
+    a{ &:hover{
+        color: #fff;
+    }
+        color: #fff;
+        text-decoration: none;
+    }
+    .copy_right{
+        background-color: #0736a5;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+    .main_menu {
+        position: absolute !important;
+        top: 40px;
+        z-index: 10;
+    }
+    .main_menu {
+        max-width: 100% !important;
+    }
+    header{
+        padding-top: 40px;
+    }
 }
